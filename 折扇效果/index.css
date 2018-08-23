@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 600px;
+    height: 230px;
+    border-bottom: 2px solid black;
+    margin: 150px auto;
+    position: relative;
+}
+
+.flabellum {
+    width: 60px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    left: 240px;
+    box-shadow: 3px 3px 5px #333;
+    transform-origin: center bottom;
+    transition: all 1s linear;
+    opacity: 0;
+}
+
+.flabellum:nth-of-type(1) {
+    background: red;
+    z-index: 8;
+}
+
+.flabellum:nth-of-type(2) {
+    background: yellow;
+    z-index: 7;
+}
+
+.flabellum:nth-of-type(3) {
+    background: green;
+    z-index: 6;
+}
+
+.flabellum:nth-of-type(4) {
+    background: blue;
+    z-index: 5;
+}
+
+.flabellum:nth-of-type(5) {
+    background: pink;
+    z-index: 4;
+}
+
+.flabellum:nth-of-type(6) {
+    background: gray;
+    z-index: 3;
+}
+
+.flabellum:nth-of-type(7) {
+    background: purple;
+    z-index: 2;
+}
+
+.flabellum:nth-of-type(8) {
+    background: yellow;
+    z-index: 8;
+}
+
+.flabellum:nth-of-type(9) {
+    background: green;
+    z-index: 9;
+}
+
+.flabellum:nth-of-type(10) {
+    background: blue;
+    z-index: 10;
+}
+
+.flabellum:nth-of-type(11) {
+    background: pink;
+    z-index: 11;
+}
+
+.flabellum:nth-of-type(12) {
+    background: gray;
+    z-index: 12;
+}
+
+.flabellum:nth-of-type(13) {
+    background: purple;
+    z-index: 13;
+    opacity: 1;
+}
+
+.box:hover .flabellum:nth-of-type(1) {
+    opacity: 1;
+}
+
+.box:hover .flabellum:nth-of-type(2) {
+    transform: rotate(15deg);
+    opacity: 1;
+}
+
+.box:hover .flabellum:nth-of-type(3) {
+    transform: rotate(30deg);
+    opacity: 1;
+}
+
+.box:hover .flabellum:nth-of-type(4) {
+    transform: rotate(45deg);
+    opacity: 1;
+}
+
+.box:hover .flabellum:nth-of-type(5) {
+    transform: rotate(60deg);
+    opacity: 1;
+}
+
+.box:hover .flabellum:nth-of-type(6) {
+    transform: rotate(75deg);
+    opacity: 1;
+}
+
+.box:hover .flabellum:nth-of-type(7) {
+    transform: rotate(90deg);
+    opacity: 1;
+}
+
+.box:hover .flabellum:nth-of-type(8) {
+    transform: rotate(-15deg);
+    opacity: 1;
+}
+
+.box:hover .flabellum:nth-of-type(9) {
+    transform: rotate(-30deg);
+    opacity: 1;
+}
+
+.box:hover .flabellum:nth-of-type(10) {
+    transform: rotate(-45deg);
+    opacity: 1;
+}
+
+.box:hover .flabellum:nth-of-type(11) {
+    transform: rotate(-60deg);
+    opacity: 1;
+}
+
+.box:hover .flabellum:nth-of-type(12) {
+    transform: rotate(-75deg);
+    opacity: 1;
+}
+
+.box:hover .flabellum:nth-of-type(13) {
+    transform: rotate(-90deg);
+}
+
+
+
+
+
