@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.listbox {
+    width: 480px;
+    height: 270px;
+    border: 1px solid red;
+    margin: 200px auto;
+    position: relative;
+}
+
+.listpic{
+    width: 480px;
+    height: 270px;
+    overflow: hidden;
+}
+
+.listbox img {
+    width: 480px;
+    height: 270px;
+}
+
+.listbox > ul > li {
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 2px;
+}
+
+.listbox > ul > li:hover{
+    background: rgba(0,0,0,0.7);
+}
+
+.listbox > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.listbox > ul {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
