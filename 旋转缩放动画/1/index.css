@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.circle, .circle > h1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.circle {
+    margin: 30px auto;
+    position: relative;
+}
+
+.circle > p {
+    width: 160px;
+    height: 160px;
+    background: url("../img/5.jpg");
+    border-radius: 50%;
+    border: 20px solid rgba(255, 255, 255, 0.5);
+    background-origin: border-box;
+    position: absolute;
+    z-index: 6;
+    transition: 1.5s;
+}
+
+.circle > h1 {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    transform: scale(0) rotate(0deg);
+    transition: 1.5s;
+}
+
+.circle:hover p {
+    transform: scale(0) rotate(360deg);
+}
+
+.circle:hover h1 {
+    transform: scale(1) rotate(-360deg);
+}
