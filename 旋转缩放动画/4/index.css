@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.circle, .circle > h1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.circle {
+    margin: 70px auto;
+    position: relative;
+}
+
+.circle > p {
+    width: 160px;
+    height: 160px;
+    background: url("../img/5.jpg");
+    border-radius: 50%;
+    border: 20px solid rgba(255, 255, 255, 0.5);
+    background-origin: border-box;
+    position: absolute;
+    transform: rotate(0deg);
+    z-index: 6;
+    transition: 1.5s;
+    transform-origin: left;
+}
+
+.circle > h1 {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+}
+
+.circle:hover p {
+    transform: rotateY(180deg);
+}
